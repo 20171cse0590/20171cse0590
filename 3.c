@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-  int a=10;
+  int a=50;
 	do{
 	    printf("value of a-%d\n",a);
 	    a=a+1;
