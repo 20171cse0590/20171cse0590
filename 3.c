@@ -6,5 +6,5 @@ int main()
 	    printf("value of a-%d\n",a);
 	    a=a-1;
 	  }
-        while(a=5);
+        while(a=0);
 }
