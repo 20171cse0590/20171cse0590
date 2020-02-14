@@ -1,0 +1,15 @@
+body{
+		 background-color:linen;
+		}
+
+		h1{
+		 color:maroon;
+		 margin-left:50px;
+		}
+		
+		p{
+		 color:#36c;
+		 font-weight:maroon;
+		 letter-spacing:2em;
+		 text-transform:uppercase;
+		}
