@@ -1,0 +1,46 @@
+<html>
+<head>
+	<style>
+	h1::before {
+	  content: url(aa.jpg);
+	}
+
+	h2::after {
+	  content: url(aa.jpg);
+	}
+
+	h3::selection {
+		  color: red;
+ 		  background: yellow;
+	}
+
+	p.aa::first-line {
+	  color: #0000ff;
+	  font-variant: small-caps;
+	}
+
+	p.aa::first-letter {
+	  color: #ff0000;
+	  font-size: xx-large;
+	}
+
+	p.intro::first-letter {
+	  color: #ff0000;
+	  font-size:200%;
+	}  
+	</style>
+</head>
+<body>
+<h1>This is a heading before pseudo-element</h1>
+
+<h2>This is a heading after pseudo-element</h2>
+
+<h3>This is a heading selection pseudo-element</h3>
+
+<p class="aa">You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.</p>
+
+<p class="intro">This is an introduction.</p>
+<p>This is a paragraph with some text. A bit more text even.</p>
+
+</body>
+</html>
